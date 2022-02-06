@@ -1,0 +1,32 @@
+.wpml-cleanup-progress {
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  height: 20px;
+  margin-top: 35px;
+  padding: 8px 0;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.wpml-cleanup-progress span {
+  position: absolute;
+  z-index: 1;
+}
+
+.wpml-cleanup-progress .progress-bar {
+  background-color: #68b4d1;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+
+#wpml-cleanup-continue {
+  margin-top: 15px;
+}
